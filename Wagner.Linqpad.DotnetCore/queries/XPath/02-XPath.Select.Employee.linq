@@ -12,4 +12,6 @@ void SelectByProperty(XElement root)
 {
 	string pattern = @"//employee[@age='23']";
 	root.XPathSelectElement(pattern).Dump();
+	pattern = @"//employee[@age > '2']";
+	root.XPathSelectElement(pattern).Dump();
 }

@@ -192,8 +192,8 @@ partial class MyWindow : Window
 			var pattern = txtContent.Text;
 			// TODO:
 			XElement root = XElement.Load(text);
-			root.XPathSelectElements(pattern);
-			root.Dump();
+			var result = root.XPathSelectElements(pattern);
+			result.Dump();
 			MessageBox.Show("Done", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
 		};
 
