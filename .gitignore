@@ -1,0 +1,22 @@
+# Visual Studio intermediate folder
+.vs/
+
+# Build resuls
+[Dd]ebug/
+[Bb]in/
+[Oo]bj/
+
+# Log files
+[Ll]og/
+
+# Upgrade files
+Upgrade*.htm
+
+# User-specific files
+*.suo
+*.user
+
+# NuGet packages
+[Pp]ackages/
+[Pp]ackages
+
